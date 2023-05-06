@@ -65,7 +65,7 @@ class Enemy(pygame.sprite.Sprite):
 
 #Crear la lista de enemigos muertos
 dead_enemies = []      
-INVULNERABILITY_DURATION = 5000  # Cambié la duración de la invulnerabilidad a 2 segundos
+INVULNERABILITY_DURATION = 2000  # invulnerabilidad a 2 segundos
 
 class Player(pygame.sprite.Sprite):
     def __init__(self):
