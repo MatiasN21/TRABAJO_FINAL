@@ -8,7 +8,7 @@ pygame.init()
 screen_width = 640
 screen_height = 480
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("APRUEBENME THE GAME")
+pygame.display.set_caption("LA ABEJITA QUE ZUMBA")
 
  #Cargar música
 pygame.mixer.music.load(r"JUEGO\Undertale_Megalovania.mp3")
@@ -156,20 +156,6 @@ class Map(pygame.sprite.Sprite):
     def draw(self, screen):
         screen.blit(self.image, self.rect)
 
-# Implementar la lógica del juego
-player = Player()
-enemies = pygame.sprite.Group()
-for i in range(10):
-    enemy = Enemy(1 * i + 10, 10)
-    enemies.add(enemy)
-
-# Crear el mapa
-game_map = Map(0, 0)
-
-# Crear la interfaz de usuario
-def draw_text(text, x, y):
-    surface = font.render(text, True, (255, 255, 255))
-    screen.blit(surface, (x, y))
 
 # Implementar la lógica del juego
 player = Player()
