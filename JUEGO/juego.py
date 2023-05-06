@@ -255,3 +255,7 @@ while running:
 
 # Salir del juego
 pygame.quit()
+
+
+
+#Para este juego se uso la libreria pygame
