@@ -8,7 +8,7 @@ pygame.init()
 screen_width = 640
 screen_height = 480
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Mi juego RPG 2D")
+pygame.display.set_caption("APRUEBENME THE GAME")
 
  #Cargar música
 pygame.mixer.music.load(r"JUEGO\Undertale_Megalovania.mp3")
